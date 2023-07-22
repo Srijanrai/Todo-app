@@ -1,0 +1,46 @@
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    padding: 0;
+    background-color: #f7e7ff;
+
+
+}
+
+@media (max-width: 768px) {
+    body {
+        background-size: contain;
+        /* You can also change background position for mobile if needed */
+    }
+}
+
+.display {
+    background-attachment: fixed;
+   
+}
+.button {
+    background-color: #4CAF50; /* Green background color */
+    border: none; /* Remove button border */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Add padding (vertical and horizontal) */
+    text-align: center; /* Center align the text */
+    text-decoration: none; /* Remove text underline */
+    display: inline-block; /* Display the button as an inline element */
+    font-size: 10px; /* Font size for the text */
+    border-radius: 8px; /* Add rounded corners */
+    box-shadow: 2px 2px 5px #888888; /* Add a subtle box shadow */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+    margin: 10px; /* Add some space around the button */
+}
+
+.button:hover {
+    background-color: #45a049; /* Darker green background color on hover */
+  }
+  
